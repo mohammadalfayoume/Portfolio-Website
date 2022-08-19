@@ -114,3 +114,57 @@
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+.my_projects_container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 10% 150px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.my_project {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.proj_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #191919;
+    letter-spacing: 1px;
+    height: 250px;
+}
+
+.icon {
+    height: auto;
+    width: 50px;
+}
+
+.footer_container {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+
