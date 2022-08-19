@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.logo, .header_container .nav_links a, .contact_btn {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.header_container .nav_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.header_container .nav_links a, .contact_btn {
+    font-weight: bold;
+}
+
+.contact_btn {
+    border: 1px solid #f9004d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f9004d;
+}
+
+.img_container {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-family: 'DynaPuff', cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.main_header_container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 20px 10% 150px;
+    margin-top: 70px;
+}
+
+.hello {
+    color: #fcfc;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.name {
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.family {
+    color: #f9004d;
+}
+.job {
+    font-size: 25px;
+}
+
+.about_me_container {
+    background-color: #191919;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10%;
+    gap: 35px;
+}
+
+.my_img {
+    height:auto;
+    width: 430px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto 0;
+    padding: 10px;
+    gap: 35px;
+
+}
+
+.about_me h2 {
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+.about_me h5 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.designer {
+    color: #f9004d;
+}
+
+.about_me p {
+    color: #fcfc;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
