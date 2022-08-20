@@ -7,6 +7,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/f74933cbce.js" crossorigin="anonymous"></script>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <div class="img_container">
@@ -15,11 +18,11 @@
                 <div><a class="logo" href="./index.html">Portfolio</a></div>
                 <nav class="nav_links">
                     <a href="#">home</a>
-                    <a href="#">about us</a>
-                    <a href="#">projects</a>
-                    <a href="#">skills</a>
+                    <a href="#about_us">about me</a>
+                    <a href="#project">projects</a>
+                    <a href="#skills">skills</a>
                 </nav>
-                <a class="contact_btn" href="#">contact us</a>
+                <a class="contact_btn" href="#contact">contact us</a>
             </div>
             <div class="main_header_container">
                 <p class="hello">Hello, my name is</p>
@@ -29,49 +32,61 @@
         </header>
     </div>
         <main>
-            <div class="about_me_container">
+            <div class="about_me_container" id="about_us">
                 <img class="my_img" src="./photos/FB_IMG_1589502785672.jpg" alt="my photo">
                 <div class="about_me">
                     <h2>about me</h2> 
                     <h5><span>developer </span><span class="designer">& designer</span></h5> 
-                    <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                    <p>Full-Stack Web developer with a background in mechanical engineering. interested and passionate about software development. always looking for new ways for improvement, skills, and knowledge ways. 
+                        Curious, passionate, highly motivated, fast learner.
+                        </p>
                 </div>
             </div>
-            <div class="my_projects_container">
+            <div class="my_projects_container" id="project">
                 <span class="my_project">my projects</span>
                 <div class="proj_cards">
                     <div class="card">
                         <i class="fa-solid fa-bars"></i>
                         <span>chocolate pizza</span>
                         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-                        <a href="#">github</a>
+                        <a href="https://github.com/mohammadalfayoume/Chocolate-Pizza" target="_blank">github</a>
                     </div>
                     <div class="card">
                         <i class="fa-solid fa-code"></i>
                         <span>Portfolio website</span>
                         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-                        <a href="#">github</a>
+                        <a href="https://github.com/mohammadalfayoume/Portfolio-Website" target="_blank">github</a>
                     </div>
                     <div class="card">
                         <i class="fa-solid fa-code-compare"></i>
                         <span>color flipper</span>
                         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-                        <a href="#">github</a>
+                        <a href="https://github.com/mohammadalfayoume/Color-Flipper" target="_blank">github</a>
                     </div>
+                </div>
+            </div>
+            <div class="my_skills_container" id="skills">
+                <span class="my_skills">my skills</span>
+                <div class="skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Git</span>
+                    <span>Github</span>
                 </div>
             </div>
         </main>
     <footer>
-        <div class="footer_container">
-            <div><h2>mohammad alfayoume</h2></div>
-            <div><h3>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel</h3></div>
+        <div class="footer_container" id="contact">
+            <h2>mohammad alfayoume</h2>
+            <h3>please click on the link below to follow me</h3>
             <div class="social_links">
-                <a href="#">facebook</a>
-                <a href="#">github</a>
-                <a href="#">linkedin</a>
+                <a class="s1" href="https://web.facebook.com/mohammad.alfayome.7/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://github.com/mohammadalfayoume" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/mohammad-alfayoume-194b531b3/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
             </div>
             <h4>created by love</h4>
-            <div>&copy;CopyRight 2022</div>
+            <span>&copy;CopyRight 2022</span>
         </div>
     </footer>
 </body>

@@ -128,7 +128,8 @@
 .about_me p, .card p {
     color: #fcfc;
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
 }
 
 .my_projects_container {
@@ -172,14 +173,14 @@
 
 
 .footer_container {
-    background-color: #191919;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px;
-    gap: 20px;
+    padding: 100px;
+    gap: 25px;
 }
 
 .fa-solid {
@@ -214,4 +215,66 @@
     border: 1px solid #f9004d;
 }
 
+.social_links a ion-icon {
+    scale: 2;
+}
 
+.social_links a {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.social_links a:hover {
+    scale: 1.5;
+    background-color: #f9004d;
+}
+
+.social_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer_container h2 {
+    text-transform: capitalize;
+}
+
+.footer_container h3 {
+    text-transform: capitalize;
+    color: #f9004d;
+}
+
+.my_skills_container {
+    background-color:#191919;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 150px ;
+
+}
+
+.my_skills {
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: larger;
+}
+
+.skills span {
+    background-color: #f9004d;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.skills span:hover {
+    scale: 1.5;
+    transition: all 0.7s ease-in-out 0s;
+
+}
