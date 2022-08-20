@@ -21,21 +21,33 @@
     text-transform: capitalize;
 }
 
+.nav_links a {
+    transition: all 0.5s ease-in-out 0s;
+}
+.nav_links a:hover {
+    color: #f9004d;
+}
+
 .header_container .nav_links {
     display: flex;
     justify-content: space-between;
     gap: 100px;
 }
 
+
 .header_container .nav_links a, .contact_btn {
     font-weight: bold;
 }
 
 .contact_btn {
-    border: 1px solid #f9004d;
+    border: none;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: #f9004d;
+    transition: all 0.5s ease-in-out 0s;
+}
+.contact_btn:hover {
+    scale: 1.2;
 }
 
 .img_container {
@@ -46,6 +58,10 @@
     font-family: 'DynaPuff', cursive;
     font-size: 30px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out 0s;
+}
+.logo:hover {
+    color: #f9004d;
 }
 
 .main_header_container {
@@ -109,7 +125,7 @@
     color: #f9004d;
 }
 
-.about_me p {
+.about_me p, .card p {
     color: #fcfc;
     font-size: 18px;
     letter-spacing: 1px;
@@ -129,6 +145,8 @@
 .my_project {
     font-size: 75px;
     font-weight: bold;
+    text-transform: capitalize;
+    padding: 25px 0;
 }
 
 .proj_cards {
@@ -148,14 +166,10 @@
     border: none;
     border-radius: 10px;
     background-color: #191919;
-    letter-spacing: 1px;
-    height: 250px;
+    padding: 25px 15px;
 }
 
-.icon {
-    height: auto;
-    width: 50px;
-}
+
 
 .footer_container {
     background-color: #191919;
@@ -167,4 +181,37 @@
     padding: 50px;
     gap: 20px;
 }
+
+.fa-solid {
+    color: #f9004d;
+    scale: 2.5;
+}
+
+.card span {
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.card p {
+    letter-spacing: 1.5px;
+    margin: 0 7%;
+}
+
+.card a {
+    text-decoration: none;
+    border: none;
+    padding: 7px 20px;
+    background-color: #f9004d;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: all 0.7s ease-in-out 0s;
+}
+
+.card a:hover {
+    background-color: #191919;
+    border: 1px solid #f9004d;
+}
+
 
